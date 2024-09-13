@@ -95,3 +95,7 @@ footer p + p {
 img {
   height: 450px;
 }
+
+.politics p {
+  color: darkslateblue;
+}
