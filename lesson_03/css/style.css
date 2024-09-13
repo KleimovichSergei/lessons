@@ -1,0 +1,97 @@
+@import url("reset.css");
+
+body {
+  color: darkslategray;
+}
+
+span {
+  color: orchid;
+}
+
+em {
+  color: blueviolet;
+}
+
+strong {
+  color: orange;
+}
+
+[href] {
+  color: blue;
+}
+
+.contents {
+  color: indianred;
+}
+
+.subitem a {
+  color: lightskyblue;
+}
+
+.main-title {
+  color: darkred;
+}
+
+.secondary-title {
+  color: salmon;
+}
+
+.text-light {
+  color: lightslategrey;
+}
+
+.text-blue {
+  color: darkblue;
+}
+
+.tertiary-title {
+  color: darkgoldenrod;
+}
+
+.date {
+  color: brown;
+}
+
+.capital {
+  color: rosybrown;
+}
+
+.name {
+  color: maroon;
+}
+
+.piece-of-shit {
+  color: wheat;
+}
+
+.text-red {
+  color: red;
+}
+
+.art-music * {
+  color: darkslateblue;
+}
+
+.cities span {
+  color: darkgreen;
+}
+
+.intro strong {
+  color: magenta;
+}
+
+.international-relations em {
+  color: limegreen;
+}
+
+footer p + p {
+  color: tomato;
+}
+
+.politics .secondary-title {
+  color: olive;
+}
+
+img {
+  height: 450px;
+}
