@@ -1,0 +1,222 @@
+@import url("reset.css");
+
+/* ====================== Connect fonts to CSS from Google Fonts ========================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+/* ====================== Connect fonts to CSS localy ========================*/
+
+@import url("fonts.css");
+
+/* ====================== Connect fonts to CSS from Google Fonts VS Plugin ========================*/
+
+@import url("https://fonts.googleapis.com/css?family=Inter:100,regular,600&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:regular,600&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500&display=swap");
+
+/* ====================== STYLES ========================*/
+
+body {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #666;
+}
+
+h2 {
+  font-family: "Inter", serif;
+  font-size: 48px;
+  text-align: right;
+  letter-spacing: 5px;
+  text-decoration: underline;
+  text-decoration-style: wavy;  
+  color: #43f752;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #ff6347;
+}
+
+p {
+  color: #64487d;
+}
+
+p.content-text {
+  color: #fff;
+}
+
+strong {
+  color:rgb(7, 90, 245);
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+em {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  color: #006400;
+  text-shadow: 0 0 15px #000000;
+}
+
+span {
+  font-size: 18px;
+  color: #666;
+  text-transform: uppercase;
+}
+
+.content {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  /* text-decoration: underline; */
+  /* text-decoration-style: wavy;
+  text-decoration-color: #ff6347; */
+  font-weight: 600;
+  text-shadow: 2px 2px 5px #ff6347;
+} 
+
+.content > ul > li {
+  color: #ff0000;
+  text-shadow: none;
+}
+
+.content > ul > li > ul * {
+  color: #9b1782;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.content a {
+  text-decoration: underline;
+  text-decoration-color: #0000ff;
+}
+
+.header {
+  font-family: "Inria Sans", serif;
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+}
+
+.main-title {
+  color: #222;
+  text-shadow: 0 7px 3px rgb(7, 90, 245), 0 14px 3px rgb(255, 255, 0);
+}
+
+.history p {
+  color: #a52a2a
+}
+
+.culture-attractions span {
+  text-decoration: underline;
+  font-size: 16px;
+}
+.neighborhoods h2 + h3 {
+  color: #006400;
+}
+
+.neighborhoods p span + span {
+  text-shadow: 2px 2px 6px #000;
+}
+
+.transportation {
+  text-transform: uppercase;
+}
+
+.transportation > p > strong {
+  text-decoration: underline;
+}
+
+#conclusion ~ p strong {
+  text-transform: uppercase;
+}
+
+footer p {
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ff6347;
+}
+
+
+/* ============================ TEMPLATES ================================ */
+
+.personal-portfolio-title,
+.business-presentation-title,
+.landing-page-title {
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* personal portfolio */
+.personal-portfolio-title,
+.personal-portfolio-text {
+  font-family: "Work Sans", sans-serif;
+  line-height: 1.35;
+}
+
+.personal-portfolio-title {
+  color: #132238;
+  font-size: 38px;
+  font-weight: 600;
+
+}
+
+.personal-portfolio-text {
+  font-size: 18px;
+  color: #556070;
+  font-weight: 400;
+}
+
+/* business presentation */
+
+.business-presentation-title,
+.business-presentation-text {
+  font-family: "DM Sans", sans-serif;
+}
+
+.business-presentation-title {
+  font-size: 88px;
+  font-weight: 700;
+  color: #1E1B39;
+  line-height: 1.1;
+}
+
+.business-presentation-text {
+  font-size: 24px;
+  font-weight: 400;
+  color: #474464;
+  line-height: 1.75;
+}
+
+/* landing page */
+
+.landing-page-title
+.landing-page-text {
+  font-family: "Roboto", sans-serif;
+}
+
+.landing-page-title {
+  color: #091133;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 1px;
+}
+
+.landing-page-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #505F98;
+}
