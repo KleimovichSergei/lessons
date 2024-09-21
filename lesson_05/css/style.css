@@ -1,0 +1,335 @@
+@import url("reset.css");
+
+/* ====================== Connect fonts to CSS from Google Fonts ========================*/
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap'); */
+
+/* ====================== Connect fonts to CSS localy ========================*/
+
+@import url("fonts.css");
+
+/* ====================== Connect fonts to CSS from Google Fonts VS Plugin ========================*/
+
+/* Inter */
+@import url("https://fonts.googleapis.com/css?family=Inter:100,regular,600&display=swap");
+/* Work Sans */
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:regular,600&display=swap");
+/* DM Sans */
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap");
+/* Roboto */
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500&display=swap");
+/* Manrope */
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600,700&display=swap");
+
+/* ====================== STYLES ========================*/
+
+body {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 18px;
+  color: #444;
+}
+
+header {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 100px;
+  margin-left: 0;
+}
+
+section {
+  margin-bottom: 70px;
+}
+
+section > p {
+  padding-inline-start: 40px;
+  padding-block-end: 30px;
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 5px;  
+  text-transform: uppercase;
+  margin: 0 0 20px; /* top = 0, left/right = 0, bottom = 20px */
+}
+
+h3 {
+  font-size: 22px;
+  text-transform: capitalize;
+  color: #ff6347;
+  margin-block-end: 15px;
+}
+
+
+strong {
+  color:rgb(7, 90, 245);
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+em {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  color: #006400;
+}
+
+span {
+  font-size: 18px;
+  color: #666;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1200px; /* not more then 1200px, but can be less */
+  margin: 0 auto; /* top/bottom = 0, left/right = auto calculate */
+}
+
+.intro > p {
+  max-width: 400px;
+  height: 200px;
+  overflow: auto;
+}
+
+.menu-container {
+  margin-block-end: 100px;
+  font-family: "Inter", sans-serif;
+
+}
+
+.menu-container p {
+  margin-block-end: 20px;
+  font-size: 24px;
+  text-decoration: underline;
+  color: #ff6347;
+  padding-block: 15px;
+}
+
+.item {
+  display: inline-block;
+  font-size: 20px;
+  text-transform: uppercase;
+  vertical-align: top;
+  width: 33%;
+  margin-bottom: 40px;
+  color: #000;
+}
+
+.item > a {
+  margin-bottom: 15px;
+}
+
+.item > ul > li {
+  font-size: 16px;
+  text-transform: none;
+  color: #777;
+}
+
+.header {
+  font-family: "Inria Sans", serif;
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+}
+
+.history p {
+  color: #a52a2a
+}
+
+.culture-attractions span {
+  text-decoration: underline;
+  font-size: 16px;
+}
+.neighborhoods h2 + h3 {
+  color: #006400;
+}
+
+.neighborhoods p span + span {
+  text-shadow: 2px 2px 6px #000;
+}
+
+.transportation {
+  text-transform: uppercase;
+}
+
+.transportation > p > strong {
+  text-decoration: underline;
+}
+
+#conclusion ~ p strong {
+  text-transform: uppercase;
+}
+
+footer p {
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ff6347;
+}
+
+
+/* ============================ TEMPLATES ================================ */
+
+/* Dark */
+
+.dark {
+  background-color: #141414;
+  max-inline-size: 1800px;
+  margin-inline: auto;
+  font-family: 'Manrope', sans-serif;
+  padding-block: 150px;
+  padding-inline: 50px;
+  color: #999;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.dark-title {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 1.5;
+  text-transform: none;
+  letter-spacing: 0;
+  margin-block-end: 14px;
+  color: #fff;
+}
+
+.dark-text {
+  max-inline-size: 1300px;
+  margin-block-end: 80px;
+}
+
+.card {
+  display: inline-block;
+  max-inline-size: 512px;
+  padding: 50px;
+  margin-block-end: 30px;
+  margin-inline: 15px;
+}
+
+.card-header {
+  margin-block-end: 30px;
+}
+
+.card-icon {
+  padding: 16px;
+  vertical-align: middle;
+  margin-right: 16px;
+}
+
+.card-header > h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  display: inline-block;
+  margin: 0;
+}
+
+/* Landing */
+
+.landing {
+  max-inline-size: 600px;
+  padding: 30px;
+  font-family: "Roboto", sans-serif;
+  color: #505F98;
+  line-height: 1.66;
+  margin-block-end: 150px;
+}
+
+.landing-title {
+  color: #091133;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.32;
+  margin-block-end: 20px;
+}
+
+.landing-text {
+  margin-block-end: 74px;
+}
+
+.landing-text p {
+  margin-bottom: 20px;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  padding-inline: 40px;
+  padding-block: 8px;
+}
+
+.btn-color {
+  background-color: #111B47;
+  color: #fff;
+  margin-inline-end: 30px;
+}
+
+.btn-transparent {
+  color: #091133;
+}
+
+/* Design */
+
+.design {
+  max-inline-size: 610px;
+  padding: 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+.design-title {
+  color: #091133;
+  text-transform: none;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.33;
+  margin-block-end: 16px;
+  letter-spacing: 0;
+}
+
+.design-text {
+  color: #6F7CB2;
+  margin-block-end: 70px;
+}
+
+.design-text p {
+  margin-block-end: 15px;
+}
+
+.card-item-box {
+  margin-inline: -15px;
+}
+
+.card-item {
+  max-inline-size: 245px;
+  margin-block-end: 30px;
+  margin-inline: 15px;
+  display: inline-block;
+}
+
+.card-item-icon {
+  margin-block-end: 14px;
+}
+
+.card-item-title {
+  color: #091133;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  margin-block-end: 6px;
+}
+
+.card-item-text {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #5D6970;
+}
