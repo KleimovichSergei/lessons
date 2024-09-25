@@ -1,0 +1,407 @@
+@import url("reset.css");
+
+/* ====================== Connect fonts to CSS from Google Fonts ========================*/
+
+
+
+/* ====================== Connect fonts to CSS localy ========================*/
+
+/* @import url("fonts.css"); */
+
+/* ====================== Connect fonts to CSS from Google Fonts VS Plugin ========================*/
+
+/* Epilogue */
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,800&display=swap");
+/* Manrope */
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600,700&display=swap");
+
+/* ====================== STYLES ========================*/
+
+
+.example {
+  margin-block-end: 100px;
+  padding-block: 30px;
+}
+
+.example p {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+  margin-block-end: 30px;
+}
+div[class^="box"] {
+  inline-size: 100px;
+  block-size: 100px;
+  display: inline-block;
+  margin-inline: 15px;
+  margin-block: 15px;
+}
+
+.border-radius div[class^="box"] {
+  background-color: #EF6D58;
+}
+.shadow div[class^="box"],
+.background div[class^="box"],
+.linear-gradient div[class^="box"],
+.outline div[class^="box"],
+.visibility div[class^="box"] {
+  border: 2px solid #391400;
+}
+.opacity div[class^="box"] {
+  background-color: #000;
+}
+
+.background div[class^="box"],
+.linear-gradient div[class^="box"],
+.visibility div[class^="box"] {
+  inline-size: 250px;
+  block-size: 250px;
+}
+
+.border,
+.border-radius,
+.shadow,
+.opacity,
+.background,
+.linear-gradient,
+.outline {
+  margin-block-end: 30px;
+}
+
+.border .box-1 {
+  border: 5px solid tomato;
+}
+.border .box-2 {
+  border: 5px dashed tomato;
+}
+
+.border .box-3 {
+  border: 5px dotted tomato;
+}
+.border .box-4 {
+  border: 5px double tomato;
+}
+
+.border .box-5 {
+  border-inline: 5px solid tomato;
+}
+
+.border .box-6 {
+  border-block: 5px solid green;
+}
+.border .box-7 {
+  border-inline-start: 5px dashed green;
+}
+.border .box-8 {
+  border-inline-end: 5px dotted green;
+}
+.border .box-9 {
+  border-inline-start: 5px dotted green;
+  border-inline-end: 5px dashed tomato;
+  border-block-start: 5px solid blue;
+  border-block-end: 5px double black;
+}
+.border .box-10 {
+  border-inline-start: 50px solid green;
+  border-inline-end: 50px solid transparent;
+  border-block-start: 50px solid transparent;
+  border-block-end: 50px solid transparent;
+}
+.border .box-11 {
+  border-inline-start: 50px solid transparent;
+  border-inline-end: 50px solid tomato;
+  border-block-start: 50px solid transparent;
+  border-block-end: 50px solid transparent;
+}
+.border .box-12 {
+  border-inline-start: 50px solid transparent;
+  border-inline-end: 50px solid transparent;
+  border-block-start: 50px solid blue;
+  border-block-end: 50px solid transparent;
+}
+.border .box-13 {
+  border-inline-start: 50px solid transparent;
+  border-inline-end: 50px solid transparent;
+  border-block-start: 50px solid transparent;
+  border-block-end: 50px solid black;
+}
+
+.border-radius .box-1 {
+  border-radius: 20px;
+}
+.border-radius .box-2 {
+  border-radius: 50%;
+}
+.border-radius .box-3 {
+  border-top-left-radius: 20px;
+}
+.border-radius .box-4 {
+  border-top-right-radius: 20px;
+}
+.border-radius .box-5 {
+  border-bottom-left-radius: 20px;
+}
+.border-radius .box-6 {
+  border-bottom-right-radius: 20px;
+}
+.border-radius .box-7 {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 50px;
+}
+
+.shadow .box-1 {
+  box-shadow: 4px 0 0 0 rgba(0,0,0, .7);
+}
+.shadow .box-2 {
+  box-shadow: 4px 4px 0 0 rgba(0,0,0, .7);
+}
+.shadow .box-3 {
+  box-shadow: 4px 4px 10px 0 rgba(0,0,0, .7);
+}
+.shadow .box-4 {
+  box-shadow: 4px 4px 10px 10px rgba(0,0,0, .7);
+}
+.shadow .box-5 {
+  box-shadow: -4px 0 0 0 rgba(0,0,0, .7);
+}
+.shadow .box-6 {
+  box-shadow: -4px -4px 0 0 rgba(0,0,0, .7);
+}
+
+.shadow .box-7 {
+  box-shadow: -4px -4px 10px 20px rgba(0,0,0, .7);
+}
+.shadow .box-8 {
+  box-shadow: 2px 2px 0 0 tomato, 4px 4px 0 0 green, 6px 6px 0 0 teal, 8px 8px 0 0 #E50000, 10px 10px 0 0 yellowgreen, 12px 12px 0 0 indigo;
+}
+
+.shadow .box-9 {
+  box-shadow: inset 4px 4px 10px 20px rgba(0,0,0, .7);
+}
+
+.opacity .box-1 {opacity: 1;}
+.opacity .box-2 {opacity: .9;}
+.opacity .box-3 {opacity: .8;}
+.opacity .box-4 {opacity: .7;}
+.opacity .box-5 {opacity: .6;}
+.opacity .box-6 {opacity: .5;}
+.opacity .box-7 {opacity: .4;}
+.opacity .box-8 {opacity: .3;}
+.opacity .box-9 {opacity: .2;}
+.opacity .box-10 {opacity: .1;}
+.opacity .box-11 {opacity: 0;}
+
+.background .box-1 {
+  background-image: url(../img/image.jpg);
+}
+.background .box-2 {
+  background-image: url(../img/image.jpg);
+  background-repeat: no-repeat;
+}
+.background .box-3 {
+  background-image: url(../img/image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.background .box-4 {
+  background-image: url(../img/image.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.background .box-5 {
+  background-image: url(../img/image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.background .box-6 {
+  background-image: url(../img/image.jpg);
+  background-repeat: no-repeat;
+  background-position: 20% 40%;
+  background-size: 70%;
+}
+
+.linear-gradient .box-1 {
+  background-image: linear-gradient(to right, tomato 0%, green 100%);
+}
+.linear-gradient .box-2 {
+  background-image: linear-gradient(to bottom, tomato 0%, green 100%);
+}
+.linear-gradient .box-3 {
+  background-image: linear-gradient(45deg, tomato 0%, green 100%);
+}
+.linear-gradient .box-4 {
+  background-image: linear-gradient(to left, tomato 0%, tomato 50%, green 50%, green 100%);
+}
+.linear-gradient .box-5 {
+  background-image: radial-gradient(circle at center, tomato 0%, green 100%);
+}
+.linear-gradient .box-6 {
+  background-image: radial-gradient(circle at 80% 20%, tomato 0%, green 100%);
+}
+
+.outline .box-1 {
+  outline: 5px solid #f0f;
+}
+.outline .box-2 {
+  outline: 5px dashed #f0f;
+}
+.outline .box-3 {
+  outline: 5px dotted #f0f;
+}
+.outline .box-4 {
+  outline: 5px double #f0f;
+}
+.outline .box-5 {
+  outline: 5px solid #f0f;
+  outline-offset: 10px;
+}
+.outline .box-6 {
+  outline: 5px solid #f0f;
+  outline-offset: -10px;
+}
+
+.visibility .box-1 {
+  visibility: hidden;
+}
+.visibility .box-2 {
+  visibility: visible;
+}
+.visibility .box-3 {
+  visibility: collapse;
+}
+.visibility .box-4 {
+  overflow: hidden;
+}
+.visibility .box-5 {
+  overflow-y: visible;
+}
+.visibility .box-6 {
+  overflow: scroll;
+}
+
+
+
+.hero {
+  margin-block-end: 100px;
+  background: #141414;
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+}
+
+.banner {
+  min-height: 860px;
+  background: url('../img/icon.svg') center no-repeat, linear-gradient(to top, #141414 0%, rgba(20, 20, 20, 0.00) 50%, #141414 100%), url("../img/bg.png") center/cover no-repeat;
+}
+
+.hero__content {
+  max-inline-size: 1100px;
+  margin-inline: auto;
+  padding-block-end: 50px;
+  margin-block-start: -60px;
+}
+
+.title {
+  font-size: 58px;
+  font-weight: 700;
+  margin-block-end: 14px;
+}
+
+.text {
+  margin-block-end: 50px;
+  color: #999;
+}
+
+.button {
+  display: inline;
+  padding-inline: 24px;
+  padding-block: 18px;
+  background-color: #E50000;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.button span {
+  display: inline-block;
+  inline-size: 30px;
+  block-size: 30px;
+  background-image: url('../img/play.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-inline-end: 2px;
+  vertical-align: middle;
+}
+
+.features {
+  color: #391400;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  background-color: #FDF0E9;
+  padding-block: 20px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  inline-size: 1200px;
+  margin-inline: auto;
+  padding-inline: 15px;
+}
+
+.content {
+  max-inline-size: 470px;
+  display: inline-block;
+  margin-inline-end: 160px;
+  padding-block-start: 60px;
+}
+
+.content__subtitle {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+  margin-block-end: 20px;
+}
+
+.content__title {
+  font-size: 56px;
+  line-height: 1.15;
+  letter-spacing: -1px;
+  font-weight: 800;
+  max-inline-size: 400px;
+  margin-block-end: 26px;
+}
+
+.content__text {
+  margin-block-end: 26px;
+}
+
+.content__list {
+  font-size: 16px;
+  line-height: 2;
+  color: rgba(57, 20, 0, 0.64);
+}
+
+.content__list-item {
+  margin-block-end: 16px;
+}
+
+.content__list-item img {
+  vertical-align: middle;
+  margin-inline-end: 16px;
+}
+
+.features__image {
+  margin-block-start: -20px;
+}
