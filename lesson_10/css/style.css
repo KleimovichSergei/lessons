@@ -151,7 +151,7 @@ footer {
 
 .item__wrapper {
   height: 576px;
-  width: 449px;
+  max-width: 449px;
   position: relative;
   overflow: hidden;
 }
